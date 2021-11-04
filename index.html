@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
+    <script src="https://kit.fontawesome.com/e58d05496d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Cake Pop</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row contHead">
+            <div class="col-3">
+                <div>
+                    <a class="btn btn-dark btn-bars" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-bars"></i></a>
+                </div>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><i class="fas fa-user-astronaut"></i></h5>
+                        <button type="button" class="btn-close text-rest" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            <input class="searchB" type="text">
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                        <div class="tabsList">
+                            <ul class="nav nav-tabs flex-column">
+                                <li class="nav-item"><a class="nav-link navPages" href="#">Baking Shop</a></li>
+                                <li class="nav-item"><a class="nav-link navPages" href="#">Desert Bar</a></li>
+                                <li class="nav-item"><a class="nav-link navPages" href="#">Cakes & Events</a></li>
+                                <li class="nav-item"><a class="nav-link navPages" href="#">Mike Popowski</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="homeIcon"><i class="fab fa-cotton-bureau cotton-bureau-1"></i> Cake Pop</div>
+            </div>
+            <div class="col-3">
+                <div class="cart"><i class="fas fa-shopping-cart hvr-wobble-horizontal"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contBody">
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <img src="https://img.taste.com.au/MJLhA7En/taste/2016/11/flower-cake-pops-61404-1.jpeg" class="bannerPic" />
+                    <div class="banPiTxt">
+                        <h5>Flower Cake Pops</h5>
+                        <p>Make this elegant recipe to celebrate baby showers, birthdays, engagements, kitchen teas, or a special afternoon tea with friends.</p>
+                    </div>
+                    <div class="banPiBtn"><button class="btnHover">Order Now</button></div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="funMess">Cake pops are fun and fun things are even funner, especially with fun people who like fun things while they eat fun food when fun is afoot in the most fun-tastic way!</div>
+            </div>
+            <div class="col-12">
+                <div>
+                    <h3>Happy Halloween</h3>
+                    <hr>
+                    <div><img class="octPops" src="https://cdn10.bigcommerce.com/s-agnkyqd/products/2821/images/4302/new_halloween__51205.1628307667.750.750.jpg?c=2" alt="halloween cake pops"></div>
+                    <div class="octText">
+                        <h5 class="octH5">Spider, Pumpkin, and Ghost Cake Pops</h5>
+                        <p class="detail">Decorative and cute, our Halloween Cake Pops are very simple to make. You can use any flavored cake and frosting that sounds appealing, just combine your favorite prepated box of cake mix and some yummy frosting. Add some candy corn for flair.
+                        </p>
+                    </div>
+                    <div><button class="btnGroup1">Order Now</button></div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="otherRec">
+                    <h3>Try Our Other Recipes!</h3>
+                    <hr>
+                    <div class="row grid-imgs-row">
+                        <div class="col">
+                            <img class="grid-imgs" src="https://simplyhomecooked.com/wp-content/uploads/2021/08/chocolate-cake-pops-34.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="grid-imgs" src="https://t8t4d4e9.rocketcdn.me/wp-content/uploads/2020/04/cake-pops.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="grid-imgs" src="https://www.emilyenchanted.com/wp-content/uploads/2021/04/4th-July-Cake-Pops-Featured-Image.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="popH5">Chocolate Covered Brownie</h5>
+                            <p class="detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, odio dolorem. A, quas pariatur. Animi iste ex quaerat dignissimos, rem consequatur ratione id sed praesentium molestiae quo quidem nulla nihil.</p>
+                        </div>
+                        <div class="col">
+                            <h5 class="popH5">Birthday Cake & Sprinkles</h5>
+                            <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod libero iure, quas eius atque recusandae dicta eos autem ducimus, accusantium illum harum, fugit quasi. Quasi ipsa quod excepturi maxime maiores.</p>
+                        </div>
+                        <div class="col">
+                            <h5 class="popH5">Frosted Red Velvet Jubilie</h5>
+                            <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, praesentium modi! Corporis quam assumenda at, alias ex enim perspiciatis qui, architecto ducimus eum dolores praesentium iure, beatae ullam quia!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btnGroup1">Order Now</button>
+                        </div>
+                        <div class="col">
+                            <button class="btnGroup1">Order Now</button>
+                        </div>
+                        <div class="col">
+                            <button class="btnGroup1">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="ftProd">
+                    <h3>Featured Products</h3>
+                    <hr>
+                    <div>Horizontal List/Grid Items</div>
+                    <div>Items List</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="greyBG">
+                    <div>
+                        <img class="mike-Wasow" src="https://bloximages.chicago2.vip.townnews.com/pantagraph.com/content/tncms/assets/v3/editorial/1/f3/1f3876bc-df4d-11e2-95c9-0019bb2963f4/51cc736f23a4c.preview-699.jpg?crop=391%2C391%2C154%2C0&resize=1200%2C1200&order=crop%2Cresize">
+                    </div>
+                    <div>
+                        <h5 class="meet-Cp-Title">COME AND MEET CAKE POP</h5>
+                        <p class="meet-Cp-Text">We love the nostalgia that comes from baking. It takes us back to when we were young, when our loved ones would bake something sweet for us. We are proud to introduce new flavors to friends and recreate seasoned favorites that take us back down memory lane, holding our roots close to heart while exploring new cultures and unexpected tastes. Always crafted with love, we hope you enjoy our baking products and dessert bar with those you hold dearest.</p>
+                        <p class="meet-Cp-Sig">- Mike Popowski</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="reviews">
+                    <h3>Reviews</h3>
+                    <hr>
+                    <div class="row grid-imgs-row">
+                        <div class="col">
+                            <img class="grid-imgs" src="https://simplyhomecooked.com/wp-content/uploads/2021/08/chocolate-cake-pops-34.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="grid-imgs" src="https://t8t4d4e9.rocketcdn.me/wp-content/uploads/2020/04/cake-pops.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="grid-imgs" src="https://www.emilyenchanted.com/wp-content/uploads/2021/04/4th-July-Cake-Pops-Featured-Image.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="grid-imgs" src="https://www.emilyenchanted.com/wp-content/uploads/2021/04/4th-July-Cake-Pops-Featured-Image.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col ">
+                            <h5 class="popH5">Chocolate Covered Brownie</h5>
+                            <p class="detail">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, odio dolorem. A, quas pariatur consectetur adipisicing elit."<br> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        </div>
+                        <div class="col">
+                            <h5 class="popH5">Birthday Cake & Sprinkles</h5>
+                            <p class="detail">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod libero iure, quas eius atque recusandae dicta eos autem ducimus."<br> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        </div>
+                        <div class="col">
+                            <h5 class="popH5">Frosted Red Velvet Jubilie</h5>
+                            <p class="detail">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, praesentium modi! Corporis quam assumenda at!"<br> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        </div>
+                        <div class="col">
+                            <h5 class="popH5">Frosted Red Velvet Jubilie</h5>
+                            <p class="detail">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, praesentium modi! Corporis quam assumenda at!"<br> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="sigNames">- Sully Bluehorn</p>
+                        </div>
+                        <div class="col">
+                            <p class="sigNames">- Betty Hairtie</p>
+                        </div>
+                        <div class="col">
+                            <p class="sigNames">- Boo Kiddo</p>
+                        </div>
+                        <div class="col">
+                            <p class="sigNames">- Randal Slitherfoot</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="shareP">
+                    <h3>Share Yours</h3>
+                    <p>@cakepop @mikepopowski</p>
+                    <hr>
+                    <div>Images of Products</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="newsletter">
+                    <h3>Newsletter</h3>
+                    <hr>
+                    <div class="join-msg">Join our newsletter for updates on new releases, upcoming sales, and more!</div>
+                    <div>
+                        <input class="join-input" type="text" placeholder="your-email@example.com">
+                        <span><button class="join-btn" type="button">Join</button></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="footer-container">
+            <div class="row mr-0">
+                <div class="col-12">
+                    <p class="homeIcon-footer"><i class="fab fa-cotton-bureau cotton-bureau-2"></i></p>
+                    <div class="row footer-list-group">
+                        <div class="col-4">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Baking Shop</li>
+                                <li class="list-group-item">Dessert Bar</li>
+                                <li class="list-group-item">Cakes & Events</li>
+                                <li class="list-group-item">About</li>
+                                <li class="list-group-item">Blog</li>
+                                <li class="list-group-item">Contact</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">111 E 1st Street</li>
+                                <li class="list-group-item">Los Angeles, CA 90012</li>
+                                <li class="list-group-item">Wed-Thu: 11-9 pm</li>
+                                <li class="list-group-item">Fri: 11-10 pm</li>
+                                <li class="list-group-item">Sat-Sun: 10-10 pm</li>
+                                <li class="list-group-item">Open for dine-in and take-out. <br>Phone number: (123) 456-7890</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Same Day Orders</li>
+                                <li class="list-group-item">Next Day Orders</li>
+                                <li class="list-group-item">Balloons & Candies</li>
+                                <li class="list-group-item">Cake & Cake Pop Gallery</li>
+                                <li class="list-group-item">Wholesale Bulk Orders</li>
+                                <li class="list-group-item">Nationwide Shipping</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row termsRow">
+                        <div class="col-3">
+                            @CAKEPOP 2021
+                        </div>
+                        <div class="col-3">
+                            PRIVACY POLICY
+                        </div>
+                        <div class="col-3">
+                            TERMS OF SERVICE
+                        </div>
+                        <div class="col-3">
+                            POWERED BY SHOPIFY
+                        </div>
+                    </div>
+                    <div class="row footSocials">
+                        <div class="col-6">
+                            <i class="fab fa-facebook-square"></i>
+                        </div>
+                        <div class="col-6">
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
